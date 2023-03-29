@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTheme">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/images_view_version"
+        android:src="@drawable/logo4"
+        android:layout_centerHorizontal="true"
+        android:elevation="8dp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtVersion"
+        android:text="ownCloud"
+        android:fontFamily="@font/baloo"
+        android:textSize="19sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/images_view_version"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtVersion2"
+        android:text="Version 1.0.0"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtVersion"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtVersion3"
+        android:text="©2022 Dale Inc."
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtVersion2"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>

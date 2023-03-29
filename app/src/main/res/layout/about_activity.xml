@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/backgroundTheme"
+    android:layout_marginTop="35dp">
+
+    <TextView
+        android:id="@+id/titleAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="About"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAbout1"
+        android:layout_below="@id/titleAbout"
+        android:text="has been released on December 27, 2022"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAbout2"
+        android:layout_below="@id/textAbout1"
+        android:text="ownCloud is developed by Daffa Putra Setyatama and Farrel Valentino. This application was made aiming to make it easier for many people to be useful in the future. This application is a cloud-based photo or image storage that is stored directly into the internal memory of the owner's cellphone, of course this application is safe and has gone through alpha testing and beta testing. This application has several features, namely there is a navigation drawer to make it easier for users to interact to various pages such as the home page, the upload images page, the Privacy Police page, the FAQ page, and the versions page. adaj also features a floating action button which aims to go directly to the upload page without opening the navigation drawer menu. I hope that this application can help many people for their daily use in using their smartphones and in the future we as developers will add many features to this application so that users will not be bored with the previous features."
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

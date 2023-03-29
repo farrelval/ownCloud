@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="35dp"
+    android:background="@color/backgroundTheme"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/title_Privacy_Police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="Privacy Police"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_Privacy_Police"
+        android:layout_marginTop="25dp"
+        android:text="This Privacy Policy will help you understand what information is collected and why it is needed. By using ownCloud you agree to this policy."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_privacy_police2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police1"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo"
+        android:text="Crash Logs"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police2"
+        android:layout_marginTop="8dp"
+        android:text="We do our best to find and fix software bugs before publishing a new version of the app. Realistically though, some bugs will slip through and can cause the Elegant Teleprompter app to crash. If this happens, the app can send crash logs to help me find and fix bugs. Elegant Teleprompter uses Google Crashlytics to collect crash logs. You can find more information here."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_privacy_police4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police3"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo"
+        android:text="Children's Privacy"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_privacy_police4"
+        android:layout_marginTop="8dp"
+        android:text="You must be 13 years of age or older to use Elegant Teleprompter. I do not knowingly collect personal information from children under 13. Moreover, if you are younger than 18, then your parent or legal guardian must read and accept this Privacy Policy on your behalf."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_privacy_police6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police5"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/baloo"
+        android:text="Changes to this Privacy Policy"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text_privacy_police7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_privacy_police6"
+        android:layout_marginTop="8dp"
+        android:text="We may update this Privacy Policy from time to time and will notify you of any changes by publishing the new policy on this page. Any changes are effective immediately on publishing and you are advised to review this page periodically."
+        android:textColor="@color/black" />
+
+</RelativeLayout>

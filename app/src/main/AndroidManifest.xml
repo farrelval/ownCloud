@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon1_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon1_round"
+        android:supportsRtl="true"
+        android:theme="@style/ThemeOwnCloud"
+        tools:targetApi="31"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".CloudList"
+            android:label="ownCloud"
+            android:theme="@style/ThemeOwnCloud.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".UploadActivity"
+            android:label="Upload"
+            android:parentActivityName=".CloudList">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/backgroundTheme"
+    android:layout_marginTop="35dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_faq"
+        android:text="Frequently Asked Questions"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/black"
+        android:textSize="27sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_faq1"
+        android:text="How To Upload?"
+        android:fontFamily="@font/baloo"
+        android:textSize="17sp"
+        android:layout_below="@id/title_faq"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_faq2"
+        android:layout_below="@id/text_faq1"
+        android:text="The method for uploading is by pressing the round button with the plus logo then it will be directed to the upload page by selecting a photo from the smartphone file manager then giving the name and format of the photo/image then clicking done, then the image will appear on the home page."
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_faq3"
+        android:layout_below="@+id/text_faq2"
+        android:text="How To Update Image?"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_faq4"
+        android:layout_below="@+id/text_faq3"
+        android:text="How to long press the image then a popup will appear then select update then an update page will appear which can change the photo/image, name and format then click the update button"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_faq5"
+        android:layout_below="@+id/text_faq4"
+        android:text="How To Delete Image?"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/baloo"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_faq6"
+        android:layout_below="@+id/text_faq5"
+        android:text="You do this by pressing the image for a long time then a popup will appear and select delete, a yes or no message will appear, select yes and the photo / image will be deleted from the home page."
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
